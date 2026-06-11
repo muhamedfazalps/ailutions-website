@@ -1,0 +1,7 @@
+# robots.txt for ailutions.ai
+# Deploy this file at: public/robots.txt in your Next.js project
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.ailutions.ai/sitemap.xml
