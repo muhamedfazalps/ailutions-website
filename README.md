@@ -40,3 +40,8 @@ Take our 5-minute AI Readiness Assessment to see where you stand.
 ---
 
 © 2026 Ailutions FZE. All rights reserved.
+
+
+## Build Status
+
+[![GitHub Pages](https://github.com/muhamedfazalps/ailutions-website/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/muhamedfazalps/ailutions-website/actions/workflows/pages/pages-build-deployment)
