@@ -5,9 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Consulting & Business Automation UAE | Ailutions</title>
     <meta name="description" content="AI consulting, digital transformation, and ERPNext implementation for UAE businesses. We fix systems, add automation, and reduce manual work.">
+    <link rel="canonical" href="https://ailutions.ai/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Ailutions FZE">
     <meta property="og:title" content="AI Consulting & Business Automation UAE | Ailutions">
     <meta property="og:description" content="We fix systems, add AI, and reduce manual work for UAE businesses.">
-    <meta property="og:url" content="https://muhamedfazalps.github.io/ailutions-website/">
+    <meta property="og:url" content="https://ailutions.ai/">
+    <meta property="og:image" content="https://ailutions.ai/og-image.jpg">
+
+    <!-- Schema.org JSON-LD: Organization + LocalBusiness -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://ailutions.ai/#organization",
+          "name": "Ailutions FZE",
+          "url": "https://ailutions.ai/",
+          "logo": "https://ailutions.ai/logo.png",
+          "description": "AI consulting, digital transformation, and ERPNext implementation for UAE businesses.",
+          "foundingDate": "2023",
+          "sameAs": [
+            "https://www.linkedin.com/company/ailutions"
+          ]
+        },
+        {
+          "@type": "LocalBusiness",
+          "@id": "https://ailutions.ai/#localbusiness",
+          "name": "Ailutions FZE",
+          "url": "https://ailutions.ai/",
+          "image": "https://ailutions.ai/logo.png",
+          "description": "AI consulting and business automation for UAE businesses.",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Dubai",
+            "addressRegion": "Dubai",
+            "addressCountry": "AE"
+          },
+          "telephone": "+971-4-123-4567",
+          "email": "hello@ailutions.ai",
+          "areaServed": "AE",
+          "priceRange": "$$",
+          "parentOrganization": {
+            "@id": "https://ailutions.ai/#organization"
+          }
+        }
+      ]
+    }
+    </script>
+
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #333; }
@@ -27,6 +76,18 @@
         .step .num { background: #0ea5e9; color: white; width: 50px; height: 50px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 1.5em; font-weight: bold; margin-bottom: 15px; }
         footer { background: #1e293b; color: #94a3b8; text-align: center; padding: 30px 20px; }
         footer a { color: #0ea5e9; }
+
+        /* Contact form */
+        .contact-form { max-width: 550px; margin: 0 auto; display: flex; flex-direction: column; gap: 15px; }
+        .contact-form input,
+        .contact-form textarea,
+        .contact-form button { font-family: inherit; font-size: 1em; padding: 14px 18px; border: 1px solid #e2e8f0; border-radius: 8px; outline: none; }
+        .contact-form input:focus,
+        .contact-form textarea:focus { border-color: #0ea5e9; box-shadow: 0 0 0 3px rgba(14,165,233,.15); }
+        .contact-form textarea { min-height: 130px; resize: vertical; }
+        .contact-form button { background: #0ea5e9; color: #fff; border: none; font-weight: 600; cursor: pointer; transition: background .2s; }
+        .contact-form button:hover { background: #0284c7; }
+        .form-note { font-size: 0.85em; color: #64748b; text-align: center; }
     </style>
 </head>
 <body>
@@ -85,6 +146,20 @@
         <h2>Ready to Start?</h2>
         <p style="margin-bottom: 20px;">Take our free 5-minute AI Readiness Assessment.</p>
         <a href="https://ailutions.ai/ai-readiness-assessment" class="cta" style="background: #0ea5e9; color: white;">Assess My Company →</a>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="container" id="contact" style="text-align: center;">
+        <h2>Get in Touch</h2>
+        <p style="margin-bottom: 25px; color: #64748b;">Tell us about your business — we'll get back to you within 24 hours.</p>
+        <form class="contact-form" action="https://formspree.io/f/YOUR_FORMSPREE_FORM_ID" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="text" name="company" placeholder="Company Name">
+            <textarea name="message" placeholder="Tell us about your business and what you need help with..." required></textarea>
+            <button type="submit">Send Message</button>
+            <p class="form-note">No spam. We reply within 24 hours.</p>
+        </form>
     </div>
 
     <footer>
