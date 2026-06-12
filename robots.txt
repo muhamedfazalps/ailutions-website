@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://muhamedfazalps.github.io/ailutions-website/sitemap.xml
